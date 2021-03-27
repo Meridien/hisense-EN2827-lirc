@@ -48,13 +48,13 @@ sudo cp hisense-EN2827-lircd.conf /etc/lirc/lircd.conf.d/hisense-EN2827-lircd.co
 Then restart lircd
 
 ```sh
-sudo systemctyl restart lircd
+sudo systemctl restart lircd
 ```
 
 Then check lircd status - you should expect no errors
 
 ```sh
-sudo systemctyl status lircd
+sudo systemctl status lircd
 ```
 
 Then point the IR LEDs at the tv's receiver, and execute the commands like this:
